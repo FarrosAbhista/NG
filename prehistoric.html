@@ -1,0 +1,40 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nusantara Geographic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="WbNm">Nusantara Geographic</a>
+      <div class="menu-btn"></div>
+      <div class="Nav">
+        <div class="nav-Items">
+          <a href="index.html" class="active">Home</a>
+          <a href="index.html#main-section">Animals</a>
+          <a href="about.html">About Us</a>
+          <a href="index.html#explore-section">Explore</a>
+          <a href="index.html#map-section">Maps</a>
+        </div>
+      </div>
+    </header>
+    <section class="Home">
+      <img src="img/prhstc.png" alt="Gambar landing" class="img-landing" />
+      
+      </section>
+    <script type="text/javascript">
+      const menuBtn = document.querySelector(".menu-btn");
+      const Nav = document.querySelector(".Nav");
+
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        Nav.classList.toggle("active");
+      });
+    </script>  
+  </body>
+  <footer>
+    <p>&copy; by Kelompok 1 || All right reserved.</p>
+  </footer>
+</html>
